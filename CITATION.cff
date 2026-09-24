@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+title: "India AI TrafficBrain"
+type: software
+authors:
+  - family-names: "Jose"
+    given-names: "Samson"
+repository-code: "https://github.com/Samson-lgs/India-AI-TrafficBrain"
