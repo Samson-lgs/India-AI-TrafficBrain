@@ -1,0 +1,11 @@
+simulation:
+  junctions: 6
+  approaches: 4
+control:
+  min_green: 10
+  max_green: 60
+forecast:
+  history: 12
+  horizon: 6
+rl:
+  gamma: 0.99
