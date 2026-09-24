@@ -1,0 +1,1 @@
+PHASES=["NS","EW"]
