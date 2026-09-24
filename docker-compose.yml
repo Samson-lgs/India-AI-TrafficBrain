@@ -1,0 +1,11 @@
+services:
+  api:
+    build: .
+    ports: ["8000:8000"]
+  dashboard:
+    build: .
+    command: ["streamlit","run","dashboard/app.py","--server.address","0.0.0.0","--server.port","8501"]
+    environment:
+      TRAFFICBRAIN_API: http://api:8000
+    ports: ["8501:8501"]
+    depends_on: [api]
